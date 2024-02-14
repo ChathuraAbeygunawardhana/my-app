@@ -1,20 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { AppRegistry } from 'react-native';
+import { Provider as PaperProvider, Text, Appbar } from 'react-native-paper';
+import { StyleSheet, View } from 'react-native';
+import SavedTemplatesScreen from './Components/SavedTemplatesScreen/SavedTemplatesScreen';
+import TemplateView from './Components/TemplateVIew/TemplateView';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <PaperProvider>
+      <TemplateView />
+    </PaperProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

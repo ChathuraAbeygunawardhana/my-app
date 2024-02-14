@@ -9,10 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/pt-sans": "^0.2.3",
+    "@uiw/react-native": "^4.1.1",
     "expo": "~50.0.6",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "^11.10.2",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "react-native-paper": "^5.12.3",
+    "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
