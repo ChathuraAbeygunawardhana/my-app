@@ -75,6 +75,9 @@ const TemplateView = () => {
         </View>
         {/* info_block */}
         <View style={styles.infoBlock}>
+          <View>
+            <Text style={styles.text02Styling}>Land Info</Text>
+          </View>
           <View style={styles.blockView}>
             <Text>Icon</Text>
             <View style={styles.textView}>
