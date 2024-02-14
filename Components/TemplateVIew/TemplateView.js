@@ -52,6 +52,7 @@ const TemplateView = () => {
             style={styles.imageStyling}
           />
         </View>
+        {/* icons_block */}
         <View style={styles.iconBlockStyling}>
           <View style={styles.iconBlockInner}>
             <View style={styles.iconOuter_01}>
@@ -70,6 +71,16 @@ const TemplateView = () => {
               <FenceSetupIcon />
             </View>
             <Text>Fence setup</Text>
+          </View>
+        </View>
+        {/* info_block */}
+        <View style={styles.infoBlock}>
+          <View style={styles.blockView}>
+            <Text>Icon</Text>
+            <View style={styles.textView}>
+              <Text style={styles.text01Styling}>Type</Text>
+              <Text style={styles.text02Styling}>Flat</Text>
+            </View>
           </View>
         </View>
       </View>

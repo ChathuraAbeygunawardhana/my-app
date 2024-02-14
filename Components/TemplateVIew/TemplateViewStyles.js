@@ -67,5 +67,18 @@ export const styles = StyleSheet.create({
   },
   infoTop: {},
   infoBottom: {},
-  blockView: {},
+  blockView: {
+    flexDirection: 'row',
+  },
+  textView: {
+    marginLeft: 10,
+  },
+  text01Styling: {
+    color: '#65676B',
+    fontWeight: 'bold',
+  },
+  text02Styling: {
+    color: 'black',
+    fontWeight: 'bold',
+  },
 });
