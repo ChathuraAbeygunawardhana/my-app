@@ -76,13 +76,40 @@ const TemplateView = () => {
         {/* info_block */}
         <View style={styles.infoBlock}>
           <View>
-            <Text style={styles.text02Styling}>Land Info</Text>
+            <Text style={styles.text02Styling}>Land Type</Text>
           </View>
-          <View style={styles.blockView}>
-            <Text>Icon</Text>
-            <View style={styles.textView}>
-              <Text style={styles.text01Styling}>Type</Text>
-              <Text style={styles.text02Styling}>Flat</Text>
+          <View style={styles.rowView}>
+            <View style={styles.firstDouble}>
+              <View style={styles.blockView}>
+                <Text>Icon</Text>
+                <View style={styles.textView}>
+                  <Text style={styles.text01Styling}>Type</Text>
+                  <Text style={styles.text02Styling}>Flat</Text>
+                </View>
+              </View>
+              <View style={styles.blockView}>
+                <Text>Icon</Text>
+                <View style={styles.textView}>
+                  <Text style={styles.text01Styling}>Perimeter</Text>
+                  <Text style={styles.text02Styling}>13km</Text>
+                </View>
+              </View>
+            </View>
+            <View style={styles.secondDouble}>
+              <View style={styles.blockView}>
+                <Text>Icon</Text>
+                <View style={styles.textView}>
+                  <Text style={styles.text01Styling}>Area</Text>
+                  <Text style={styles.text02Styling}>100 Acres</Text>
+                </View>
+              </View>
+              <View style={styles.blockView}>
+                <Text>Icon</Text>
+                <View style={styles.textView}>
+                  <Text style={styles.text01Styling}>Location</Text>
+                  <Text style={styles.text02Styling}>Kandy</Text>
+                </View>
+              </View>
             </View>
           </View>
         </View>

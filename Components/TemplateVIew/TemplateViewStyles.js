@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
   infoBlock: {
     backgroundColor: 'white',
     marginTop: 20,
-    marginHorizontal: 20,
+    marginHorizontal: 40,
     borderRadius: 10,
     padding: 10,
   },
@@ -69,6 +69,8 @@ export const styles = StyleSheet.create({
   infoBottom: {},
   blockView: {
     flexDirection: 'row',
+    marginLeft: 20,
+    marginVertical: 10,
   },
   textView: {
     marginLeft: 10,
@@ -80,5 +82,10 @@ export const styles = StyleSheet.create({
   text02Styling: {
     color: 'black',
     fontWeight: 'bold',
+  },
+  firstDouble: {},
+  secondDouble: {},
+  rowView: {
+    flexDirection: 'row',
   },
 });
